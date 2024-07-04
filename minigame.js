@@ -1,5 +1,5 @@
 document.getElementById('backButton').addEventListener('click', function() {
-    window.location.href = 'memecointestwebsite.html';
+    window.location.href = 'index.html';
 });
 
 document.getElementById('restartButton').addEventListener('click', function() {
@@ -7,7 +7,7 @@ document.getElementById('restartButton').addEventListener('click', function() {
 });
 
 document.getElementById('gameOverBackButton').addEventListener('click', function() {
-    window.location.href = 'memecointestwebsite.html';
+    window.location.href = 'index.html';
 });
 
 const canvas = document.getElementById('gameCanvas');
