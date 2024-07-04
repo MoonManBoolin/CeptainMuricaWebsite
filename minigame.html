@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Game</title>
+    <link rel="stylesheet" href="minigame.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Ceptain Muricas Final showdown</h1>
+        <canvas id="gameCanvas"></canvas>
+        <div id="score">Score: 0</div>
+        <button id="backButton" class="game-button">Back to Main Page</button>
+    </div>
+    <div id="gameOver" class="game-over-container">
+        <video id="gameOverVideo" width="800" controls>
+            <source src="game-over.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div id="finalScore"></div>
+        <button id="restartButton" class="game-button">Restart Game</button>
+        <button id="gameOverBackButton" class="game-button">Back to Main Page</button>
+    </div>
+    <script src="minigame.js"></script>
+</body>
+</html>
